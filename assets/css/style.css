@@ -462,25 +462,25 @@ section {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: url(../img/Live-Motion-Background.svg);
+  background: url(../img/Bubble-Background.svg);
 }
 
 .glass {
-  background: rgba(15, 21, 30, 0.918);
-  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.466);
+  background: rgba(89, 154, 207, 0.146);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.466);
   backdrop-filter: blur(4px);
   -webkit-backdrop-filter: blur(4px);
   border-radius: 10px;
-  border: 1px solid rgba(255, 255, 255, 0.15);
+  border: 1px solid rgba(130, 59, 59, 0.15);
   padding: 45px;
 }
 
 .hero h1 {
-  font-family: "Fredoka One", cursive;
+  font-family: Apple Chancery, cursive;
   margin: 0;
   font-size: 50px;
   font-weight: 400;
-  color: #fff;
+  color: white;
 }
 
 .hero h2 {
@@ -1277,3 +1277,11 @@ h5 .description{
 .align {
   text-align: justify;
 }
+
+
+
+
+
+
+
+
