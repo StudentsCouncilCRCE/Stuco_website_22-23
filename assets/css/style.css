@@ -60,7 +60,7 @@ section {
   /* font-family: 'Carattere', cursive; */
   font-family: "Kaushan Script", cursive;
   text-align: center;
-  padding-bottom: 40px;
+  
   padding-top: 40px;
 }
 
@@ -588,12 +588,12 @@ section {
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
-.services {
-  background-color: rgba(0, 0, 0, 0.877);
-}
+ .services {
+  background-color: #0047ab;
+} 
 
-.service-box {
-  background-color: #2c2e43;
+.services {
+  background:#1d2671
 }
 
 .services .service-box {
@@ -747,7 +747,120 @@ section {
 .services .service-box:hover .icon {
   background: #fff;
 }
+.wrapper{
+  font-family: 'Raleway',sans-serif;
+  margin: 30px auto;
+}
 
+.servicess{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ margin: 10px ;
+}
+.sbox{
+  width: 400px;
+  height: 400px;
+  padding: 25px;
+  background:white;
+  margin: 15px;
+  box-shadow: 5px 5px 8px rgb(0, 0, 0);
+  flex-wrap: wrap;
+  transition: 0.5s;
+}
+.rose:hover {
+  background: linear-gradient(to bottom,#ffafbd 42%,#ffc3a0 80%);
+}
+.blue:hover{
+  background: linear-gradient(to bottom,#2193b0  42%, #6dd5ed 80%);
+}
+.purple:hover{
+  background: linear-gradient(to bottom,#cc2b5e 42%, #753a88 80%);
+}
+.mauve:hover{
+  background: linear-gradient(to bottom,#42275a 42%,#734b6d 80%);
+}
+.orange:hover{
+  background: linear-gradient(to bottom,#de6262 42%,#ffb88c 80%);
+}
+.aqua:hover{
+  background: linear-gradient(to bottom,#43cea2 42%, #185a9d  80%);
+}
+.cherry:hover{
+  background: linear-gradient(to bottom,#ff512f  42%,#dd2476 80%);
+}
+.pinky:hover{
+  background: linear-gradient(to bottom,#dd5e89  42%, #f7bb97 80%);
+}
+.lush:hover {
+  background: linear-gradient(to bottom,#3a1c71  42%,  #d76d77 80%);
+}
+.sbox:hover .stitle h2{
+  color: #ffff;
+}
+.sbox:hover .sicon i{
+  color: rgb(255, 255, 255);
+}
+.sbox:hover .description button{
+  color: blue;
+  background: #f2f2f2;
+}
+.sbox:hover .description {
+  color: white;
+}
+h5:hover .description{
+  color: white;
+}
+.sheader{
+  display: flex;
+
+}
+.stitle{
+  flex-basis: 70%;
+
+}
+.stitle h2{
+  font-family: 'Raleway';
+  font-size: 2.5rem;
+  font-weight: 400;
+  color: #333;
+}
+.sicon{
+  flex-basis: 30%;
+  position: relative;
+}
+.sicon i{
+  font-size: 70px;
+  line-height: 80px;
+  color: blue;
+}
+h5{
+  color: #000;
+}
+h5 .description{
+  padding: 15px 5px;
+  color: #777;
+  line-height: 18px;
+  font-size: 14px;
+}
+.description button{
+  width: 120px;
+  background: blue;
+  color: white;
+  border-radius: 25px;
+  font-size: 16px;
+  padding: 10px;
+  border: 0;
+  margin-top: 25px;
+}
+@media(max-width:763px){
+  .services{
+    flex-direction: column;
+  }
+  .sbox{
+    margin: 15px 5px;
+  }
+}
 /*--------------------------------------------------------------
 # Clients
 --------------------------------------------------------------*/
