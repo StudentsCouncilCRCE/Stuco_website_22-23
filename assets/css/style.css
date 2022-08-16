@@ -59,7 +59,10 @@ section {
 .section-header {
    font-family: 'Courgette', cursive;   
   text-align: center;
+
   text-transform: uppercase ;
+
+
   padding-top: 40px;
 }
 
@@ -71,7 +74,7 @@ section {
 }
 
 .section-header p {
-  margin: 10px 0 0 0;
+  margin: 50px 0;
   padding: 0;
   font-size: 38px;
   line-height: 42px;
@@ -289,7 +292,6 @@ section {
   z-index: 99;
   opacity: 0;
   visibility: hidden;
-  background: #fff;
   box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
   transition: 0.3s;
   border-radius: 4px;
@@ -585,280 +587,82 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Services
+# Services Section
 --------------------------------------------------------------*/
- .services {
-  background-color: #0047ab;
-} 
-
 .services {
-  background:#1d2671
+  background-color: #0a0c0e;
 }
 
-.services .service-box {
-  box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
-  height: 100%;
-  padding: 60px 30px;
-  text-align: center;
-  transition: 0.3s;
-  border-radius: 5px;
+.services .img {
+  border-radius: 8px;
+  overflow: hidden;
 }
 
-.services .service-box .icon {
-  font-size: 36px;
-  padding: 40px 20px;
-  border-radius: 4px;
+.services .img img {
+  transition: 0.6s;
+}
+
+.services .details {
+  padding: 50px 30px;
+  margin: -100px 30px 0 30px;
+  transition: all ease-in-out 0.3s;
+  background: white;
   position: relative;
-  margin-bottom: 25px;
-  display: inline-block;
-  line-height: 0;
-  transition: 0.3s;
+  background: rgba(white, 0.9);
+  text-align: center;
+  border-radius: 8px;
+  box-shadow: 0px 0 25px rgba(black, 0.1);
 }
 
-.services .service-box h3 {
-  color: white;
-  font-weight: 700;
-}
-
-.services .service-box .read-more {
-  display: inline-flex;
+.services .details .icon {
+  margin: 0;
+  width: 72px;
+  height: 72px;
+  background: turquoise;
+  border-radius: 50px;
+  display: flex;
   align-items: center;
   justify-content: center;
-  font-weight: 600;
-  font-size: 16px;
-  padding: 8px 20px;
-}
-
-.services .service-box .read-more i {
-  line-height: 0;
-  margin-left: 5px;
-  font-size: 18px;
-}
-
-.services .service-box.blue {
-  border-bottom: 3px solid #2db6fa;
-}
-
-.services .service-box.blue .icon {
-  color: #2db6fa;
-  background: #dbf3fe;
-}
-
-.services .service-box.blue .read-more {
-  color: #2db6fa;
-}
-
-.services .service-box.blue:hover {
-  background: #2db6fa;
-}
-
-.services .service-box.orange {
-  border-bottom: 3px solid #f68c09;
-}
-
-.services .service-box.orange .icon {
-  color: #f68c09;
-  background: #fde3c4;
-}
-
-.services .service-box.orange .read-more {
-  color: #f68c09;
-}
-
-.services .service-box.orange:hover {
-  background: #f68c09;
-}
-
-.services .service-box.green {
-  border-bottom: 3px solid #08da4e;
-}
-
-.services .service-box.green .icon {
-  color: #08da4e;
-  background: #cffddf;
-}
-
-.services .service-box.green .read-more {
-  color: #08da4e;
-}
-
-.services .service-box.green:hover {
-  background: #08da4e;
-}
-
-.services .service-box.red {
-  border-bottom: 3px solid #e9222c;
-}
-
-.services .service-box.red .icon {
-  color: #e9222c;
-  background: #fef7f8;
-}
-
-.services .service-box.red .read-more {
-  color: #e9222c;
-}
-
-.services .service-box.red:hover {
-  background: #e9222c;
-}
-
-.services .service-box.purple {
-  border-bottom: 3px solid #b50edf;
-}
-
-.services .service-box.purple .icon {
-  color: #b50edf;
-  background: #f8e4fd;
-}
-
-.services .service-box.purple .read-more {
-  color: #b50edf;
-}
-
-.services .service-box.purple:hover {
-  background: #b50edf;
-}
-
-.services .service-box.pink {
-  border-bottom: 3px solid #f51f9c;
-}
-
-.services .service-box.pink .icon {
-  color: #f51f9c;
-  background: #feecf7;
-}
-
-.services .service-box.pink .read-more {
-  color: #f51f9c;
-}
-
-.services .service-box.pink:hover {
-  background: #f51f9c;
-}
-
-.services .service-box:hover h3,
-.services .service-box:hover p,
-.services .service-box:hover .read-more {
-  color: #fff;
-}
-
-.services .service-box:hover .icon {
-  background: #fff;
-}
-.wrapper{
-  font-family: 'Raleway',sans-serif;
-  margin: 30px auto;
-}
-
-.servicess{
- display: flex;
- justify-content: center;
- align-items: center;
- margin: 10px ;
-}
-.sbox{
-  width: 400px;
-  height: 400px;
-  padding: 25px;
-  background:white;
-  margin: 15px;
-  box-shadow: 5px 5px 8px rgb(0, 0, 0);
-  flex-wrap: wrap;
-  transition: 0.5s;
-}
-.rose:hover {
-  background: linear-gradient(to bottom,#ffafbd 42%,#ffc3a0 80%);
-}
-.blue:hover{
-  background: linear-gradient(to bottom,#2193b0  42%, #6dd5ed 80%);
-}
-.purple:hover{
-  background: linear-gradient(to bottom,#cc2b5e 42%, #753a88 80%);
-}
-.mauve:hover{
-  background: linear-gradient(to bottom,#42275a 42%,#734b6d 80%);
-}
-.orange:hover{
-  background: linear-gradient(to bottom,#de6262 42%,#ffb88c 80%);
-}
-.aqua:hover{
-  background: linear-gradient(to bottom,#43cea2 42%, #185a9d  80%);
-}
-.cherry:hover{
-  background: linear-gradient(to bottom,#ff512f  42%,#dd2476 80%);
-}
-.pinky:hover{
-  background: linear-gradient(to bottom,#dd5e89  42%, #f7bb97 80%);
-}
-.lush:hover {
-  background: linear-gradient(to bottom,#3a1c71  42%,  #d76d77 80%);
-}
-.sbox:hover .stitle h2{
-  color: #ffff;
-}
-.sbox:hover .sicon i{
-  color: rgb(255, 255, 255);
-}
-.sbox:hover .description button{
-  color: blue;
-  background: #f2f2f2;
-}
-.sbox:hover .description {
+  margin-bottom: 20px;
   color: white;
+  font-size: 28px;
+  transition: ease-in-out 0.3s;
+  position: absolute;
+  top: -36px;
+  left: calc(50% - 36px);
+  border: 6px solid white;
 }
-h5:hover .description{
-  color: white;
-}
-.sheader{
-  display: flex;
 
+.services .details h3 {
+  color: black;
+  font-weight: 700;
+  margin: 10px 0 15px 0;
+  font-size: 22px;
+  transition: ease-in-out 0.3s;
 }
-.stitle{
-  flex-basis: 70%;
 
-}
-.stitle h2{
-  font-family: 'Raleway';
-  font-size: 2.5rem;
-  font-weight: 400;
-  color: #333;
-}
-.sicon{
-  flex-basis: 30%;
-  position: relative;
-}
-.sicon i{
-  font-size: 70px;
-  line-height: 80px;
-  color: blue;
-}
-h5{
-  color: #000;
-}
-h5 .description{
-  padding: 15px 5px;
-  color: #777;
-  line-height: 18px;
+.services .details p {
+  line-height: 24px;
   font-size: 14px;
+  margin-bottom: 0;
+  color: black;
 }
-.description button{
-  width: 120px;
-  background: blue;
-  color: white;
-  border-radius: 25px;
-  font-size: 16px;
-  padding: 10px;
-  border: 0;
-  margin-top: 25px;
+
+.services .service-item:hover .details h3 {
+  color: turquoise;
 }
-@media(max-width:763px){
-  .services{
-    flex-direction: column;
-  }
-  .sbox{
-    margin: 15px 5px;
-  }
+
+.services .service-item:hover .details .icon {
+  background: white;
+  border: 2px solid turquoise;
+}
+
+.services .service-item:hover .details .icon i {
+  color: turquoise;
+}
+
+.services .service-item:hover .img img {
+  transform: scale(1.2);
 }
 /*--------------------------------------------------------------
 # Clients
@@ -1220,7 +1024,7 @@ h5 .description{
 
 .social_contact {
   display: grid;
-  height: 100%;
+  /* height: 100%; */
   width: 100%;
   place-items: center;
   position: relative;
