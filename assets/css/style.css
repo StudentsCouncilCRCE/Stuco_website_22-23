@@ -810,7 +810,7 @@ section {
 .team {
   /* background-image: url(https://elements-video-cover-images-0.imgix.net/files/a79b5974-b692-47ca-87ae-fd20035ea97e/inline_image_preview.jpg?auto=compress%2Cformat&fit=min&h=281&w=500&s=583f6cf8479a89fa6d7e31a1bcf8e2ba); */
   padding: 60px 0;
-  
+  background-color: #2c2e43;
   background-size: contain;
 }
 
