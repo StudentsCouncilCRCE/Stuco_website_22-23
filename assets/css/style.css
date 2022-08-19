@@ -188,6 +188,7 @@ color: rgb(215, 99, 17);
   transition: all 0.5s;
   z-index: 997;
   padding: 20px 0;
+  background-color: black;
 }
 
 .header.header-scrolled {
@@ -226,6 +227,7 @@ color: rgb(215, 99, 17);
 */
 .navbar {
   padding: 0;
+  background:#000;
 }
 
 .navbar ul {
@@ -462,7 +464,8 @@ color: rgb(215, 99, 17);
   display: flex;
   align-items: center;
   justify-content: center;
-  background: url(../img/Bubble-Background.svg);
+  background: url(../img/Wave-10s-1280px.svg);
+  background-size: contain;
 
 }
 
