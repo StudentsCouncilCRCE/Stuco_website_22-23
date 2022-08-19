@@ -52,16 +52,15 @@ hr {
 # Sections
 --------------------------------------------------------------*/
 section {
-  padding: 60px 0;
+  padding: 25px 0;
   overflow: hidden;
 }
 
 .section-header {
    font-family: 'Courgette', cursive;   
   text-align: center;
-
   text-transform: uppercase ;
-
+color: rgb(215, 99, 17);
 
   padding-top: 40px;
 }
@@ -662,6 +661,18 @@ section {
 .services .service-item:hover .details .icon i {
   color: rgb(215, 99, 17);
 }
+.services .service-item:hover .details h3 {
+  color: rgb(215, 99, 17);
+}
+
+.services .service-item:hover .details .icon {
+  background: white;
+  border: 2px solid rgb(215, 99, 17);
+}
+
+.services .service-item:hover .details .icon i {
+  color: rgb(215, 99, 17);
+}
 
 .services .service-item:hover .img img {
   transform: scale(1.2);
@@ -722,6 +733,10 @@ section {
   background: linear-gradient(#f00,#f0f);
   clip-path: circle(30% at 10% 10%);
 } */
+.team{
+  background: url(../img/Firefly-50s-1084px.svg);
+  
+}
 .containert{
   
   position: relative;
@@ -751,7 +766,7 @@ section {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  opacity: 0.5;
+  
   transition: 0.5s;
 }
 .containert .card:hover .content{
@@ -760,12 +775,17 @@ section {
 }
 .containert .card .content .imgBx{
   position: relative;
-  width: 150px;
-  height: 150px;
-  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
   overflow: hidden;
-  border: 10px solid black;
+  border: 5px solid rgb(0, 0, 0);
 }
+.containert .card:hover .content .imgBx{
+  transition: 0.5s;
+  border-radius: 10%;
+}
+
 .containert .card .content .imgBx img{
   position: absolute;
   top: 0;
@@ -781,7 +801,7 @@ section {
   font-weight: 500;
   font-size: 18px;
   text-align: center;
-  margin: 20px 0 10px;
+  margin: 20px 0 20px;
   line-height: 1.1em;
 }
 .containert .card .content .contentBx h3 span{
@@ -797,22 +817,34 @@ section {
 .containert .card .sci li{
   list-style: none;
   margin: 0 10px;
-  transform: translateY(40px);
+  transform: translateY(30px); 
+  
   transition: 0.5s;
   transition-delay: calc(0.1s * var(--i));
 }
-.containert .card:hover .sci li{
+.containert .card:hover .sci li i.bi-whatsapp{
+  color: rgb(91, 225, 91);
+}
+.containert .card:hover .sci li i.bi-linkedin{
+  color: rgb(100, 100, 215);
+}
+.containert .card:hover .sci li i.bi-instagram{
+  color: rgb(232, 103, 204);
+}
+
+/* .containert .card:hover .sci li{
   transform: translateY(0px);
   opacity: 1;
-}
+  color: orange;
+} */
 .containert .card .sci li a{
   color: white;
   font-size: 24px;
 }
 .team {
-  /* background-image: url(https://elements-video-cover-images-0.imgix.net/files/a79b5974-b692-47ca-87ae-fd20035ea97e/inline_image_preview.jpg?auto=compress%2Cformat&fit=min&h=281&w=500&s=583f6cf8479a89fa6d7e31a1bcf8e2ba); */
+   /* background-image: url(https://elements-video-cover-images-0.imgix.net/files/a79b5974-b692-47ca-87ae-fd20035ea97e/inline_image_preview.jpg?auto=compress%2Cformat&fit=min&h=281&w=500&s=583f6cf8479a89fa6d7e31a1bcf8e2ba);  */
   padding: 60px 0;
-  background-color: #2c2e43;
+  background-color: #000000;
   background-size: contain;
 }
 
@@ -934,14 +966,21 @@ section {
     --bs-gutter-y: 2.5rem;
   }
 }
+.ibox{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 30px;
+}
+
 
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
 .contact {
-  color: #2c2e43;
+  color: #c65333;
   text-align: center;
-  background-color: rgb(60, 59, 81);
+  background-color: rgb(0, 0, 0);
 }
 
 #contactContent {
@@ -1265,7 +1304,7 @@ section {
   padding: 12px 24px;
   border-radius: 5px;
   transition: 0.3s;
-  display: -nline-flex;
+  display: -  nline-flex;
   align-items: center;
   justify-content: center;
   color: var(--color-white);
@@ -1418,6 +1457,7 @@ html, body, #contact-info {
   justify-content: center;
   align-items: center;
   height:30vh;
+  background-color: #000000;
 
 }
 
@@ -1545,7 +1585,7 @@ html, body, #contact-info {
 
 
 
-.down{ font: 400 1em/1.5 "Neuton"; background: #090d00; color: rgba(255,255,255,.25); text-align: center; margin: 0 }
+.down{ font: 600 1em/1.5 "Neuton"; background: #090d00; color: rgba(255,255,255,.25); text-align: center; margin: 0 }
 
 .foot {
 	text-transform: uppercase;
@@ -1554,16 +1594,16 @@ html, body, #contact-info {
 	border: 4px double rgba(255,255,255,.25);
 	border-width: 4px 0;
 	padding: 1.5em 0em;
-	position: absolute;
 	top: 18%;
 	left: 50%;
 	width: 40em;
-	margin: 0 0 0 -20em;
+	margin: 0 0 0 0em;
 }
   
   .bottom {
 
   	font: 700 4em/1 "Oswald", sans-serif;
+    font-size: 120px;
   	letter-spacing: 0;
   	padding: .25em 0 .325em;
 	  display: block;
