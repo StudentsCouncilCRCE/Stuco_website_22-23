@@ -456,9 +456,9 @@ section {
 --------------------------------------------------------------*/
 .hero {
   width: 100%;
-  height: 100vh;
+  height: 105vh;
   background-color: #0f151e;
-  margin: 0;
+  margin-top: -25px;
   overflow: hidden;
   display: flex;
   align-items: center;
@@ -620,7 +620,7 @@ section {
   margin: 0;
   width: 72px;
   height: 72px;
-  background: turquoise;
+  background: rgb(215, 99, 17);
   border-radius: 50px;
   display: flex;
   align-items: center;
@@ -651,16 +651,16 @@ section {
 }
 
 .services .service-item:hover .details h3 {
-  color: turquoise;
+  color: rgb(215, 99, 17);
 }
 
 .services .service-item:hover .details .icon {
   background: white;
-  border: 2px solid turquoise;
+  border: 2px solid rgb(215, 99, 17);
 }
 
 .services .service-item:hover .details .icon i {
-  color: turquoise;
+  color: rgb(215, 99, 17);
 }
 
 .services .service-item:hover .img img {
