@@ -67,7 +67,7 @@ section {
   text-transform: uppercase ;
 
   color: #fff;
-  text-shadow:
+  /* text-shadow:
       0 0 7px #fff,
       0 0 10px #fff,
       0 0 21px #fff,
@@ -76,7 +76,7 @@ section {
       0 0 92px #f57c20,
       0 0 102px #f57c20,
       0 0 151px #f57c20;
-
+ */
 
   padding-top: 40px;
 }
