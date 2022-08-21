@@ -10,7 +10,7 @@
     content="Fr. Conceicao Rodrigues College of Engineering (CRCE) is a engineering college in Mumbai, India. It is located at Bandstand in Bandra (West). "
     name="description">
 
-  <meta content="Engineering College in mumbai, Students Council CRCE 2021, Stuco CRCE 2021" name="keywords">
+  <meta content="Engineering College in mumbai, Students Council CRCE 2022, Stuco CRCE 2022" name="keywords">
 
   <meta content="frcrce" name="author">
 
@@ -18,8 +18,8 @@
   <link rel="shortcut icon" href="/assets/img/favicon.ico" type="image/x-icon">
 
 
-<!-- header  -->
-<link rel="preconnect" href="https://fonts.googleapis.com">
+  <!-- header  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
 
@@ -29,7 +29,7 @@
   <link
     href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
     rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Carattere&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet">
@@ -63,35 +63,35 @@
 
   <header id="header" class="header fixed-top">
     <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
-     <div class="stucu"> <a href="index.html" class="logo d-flex align-items-center">
-        <img src="assets/img/logo.svg" width="30" height="30" class="d-inline-block align-top" alt="">
-        <span class="stuc">Students' Council</span>
-      </a>
+      <div class="stucu"> <a href="index.html" class="logo d-flex align-items-center">
+          <img src="assets/img/logo.svg" width="30" height="30" class="d-inline-block align-top" alt="">
+          <span class="stuc">Students' Council</span>
+        </a>
       </div>
-<!-- navbar  -->
- 
-<!-- <header id="header" class="d-flex align-items-center"> -->
-  <!-- <div class="container d-flex align-items-center justify-content-between"> -->
+      <!-- navbar  -->
 
-<header id="header" class="d-flex align-items-center">
-  <div class="container d-flex align-items-center justify-content-between" style="padding-left: 100px;
+      <!-- <header id="header" class="d-flex align-items-center"> -->
+      <!-- <div class="container d-flex align-items-center justify-content-between"> -->
+
+      <header id="header" class="d-flex align-items-center">
+        <div class="container d-flex align-items-center justify-content-between" style="padding-left: 100px;
   
   padding-bottom: 2px;">
 
 
-    <h1 class="logo"><a href="index.html"></a></h1>
-    <!-- Uncomment below if you prefer to use an image logo -->
-    <!-- <a href="index.html" class="logo"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+          <h1 class="logo"><a href="index.html"></a></h1>
+          <!-- Uncomment below if you prefer to use an image logo -->
+          <!-- <a href="index.html" class="logo"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
 
-    <nav id="navbar" class="navbar">
-      <ul>
-        <li><a class="nav-link scrollto active" href="#hero">HOME</a></li>
-        <li><a class="nav-link scrollto" href="#about">ABOUT</a></li>
-        <li><a class="nav-link scrollto" href="#services">EVENTS</a></li>
-        <li><a class="nav-link scrollto " href="#team">OUR TEAM</a></li>
-        
-        
-        <!-- <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a>
+          <nav id="navbar" class="navbar">
+            <ul>
+              <li><a class="nav-link scrollto active" href="#hero">HOME</a></li>
+              <li><a class="nav-link scrollto" href="#about">ABOUT</a></li>
+              <li><a class="nav-link scrollto" href="#services">EVENTS</a></li>
+              <li><a class="nav-link scrollto " href="#team">OUR TEAM</a></li>
+
+
+              <!-- <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a>
           <ul>
             <li><a href="#">Drop Down 1</a></li>
           <li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i class="bi bi-chevron-right"></i></a>
@@ -108,13 +108,13 @@
             <li><a href="#">Drop Down 4</a></li>
           </ul>
         </li>   -->
-        <li><a class="nav-link scrollto" href="#contact">CONTACT US</a></li>
-      </ul>
-      <i class="bi bi-list mobile-nav-toggle"></i>
-    </nav><!-- .navbar -->
+              <li><a class="nav-link scrollto" href="#contact">CONTACT US</a></li>
+            </ul>
+            <i class="bi bi-list mobile-nav-toggle"></i>
+          </nav><!-- .navbar -->
 
-  </div>
-</header>
+        </div>
+      </header>
 
       <!-- .navbar -->
       <!-- <nav id="navbar" class="navbar">
@@ -136,15 +136,53 @@
   <!-- ======= Hero Section ======= -->
 
   <!-- oculus -->
-  <section id="hero" class="hero d-flex align-items-center ">
+  <section id="hero" class="hero d-flex align-items-center">
     <!-- <div class="container margin">
       <div class="row hero_content">
         <div class="col-lg-6 d-flex flex-column justify-content-center glass">
           <h1>FR. CRCE <br>STUDENTS' COUNCIL <br>2022-2023</h1>
         </div>
       </div>
-    </div> --> 
+    </div> -->
+    <script type="x-shader/x-vertex" id="vertexshader">
 
+      attribute float size;
+      attribute vec3 customColor;
+      varying vec3 vColor;
+    
+      void main() {
+    
+        vColor = customColor;
+        vec4 mvPosition = modelViewMatrix * vec4( position, 1.0 );
+        gl_PointSize = size * ( 300.0 / -mvPosition.z );
+        gl_Position = projectionMatrix * mvPosition;
+    
+      }
+    
+    </script>
+    <script type="x-shader/x-fragment" id="fragmentshader">
+
+     uniform vec3 color;
+     uniform sampler2D pointTexture;
+    
+     varying vec3 vColor;
+    
+     void main() {
+    
+       gl_FragColor = vec4( color * vColor, 1.0 );
+       gl_FragColor = gl_FragColor * texture2D( pointTexture, gl_PointCoord );
+    
+     }
+    </script>
+    <!-- <h1 style="margin-top: 140px; margin-left: 680px; font-size: 58px;">FR. CRCE</h1> -->
+
+    <div id="magic"></div>
+    <div class="playground">
+    </div>
+
+    <!-- <h1 style="margin-top: 220px; margin-left: 670px; font-size: 58px;">2022-2023</h1> -->
+    <!-- partial -->
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/three.js/r125/three.min.js'></script>
   </section><!-- End Hero -->
 
   <main id="main">
@@ -185,38 +223,45 @@
     </section>
     -- End About Us Section-->
     <div id="about">
-    
-      
-    
+
+
+
       <div class="section-header">
         <p class="main-title">
-         About Us 👋<br />
-         <br>
+          About Us 👋<br />
+          <br>
         </p>
       </div>
       <div class="containerg">
         <div class="glass-rect">
-        <div class="main">
-          
-          
-          <p class="main-desc">
+          <div class="main">
 
-           
 
-            Students’ Council is the apex student body at Fr. Conceicao Rodrigues College Of Engineering.</br>The primary duty of the students council comprises of standing strong as a bridge of formal communication between the students, faculties and the administration.</br> While it seeks to address any queries and resolve issues that the students or admin may face, the Student Council also relentlessly strives towards the enrichment of the campus experience. We aren’t just a group of 21 people working together, rather a family of well coordinated and vividly talented individuals who take pride in the Student Council. Our hearts all beat for a single purpose which is, “To serve and protect the honour and integrity of the council, always.” StuCo stands stronger!
+            <p class="main-desc">
 
-          </p>
-        
-        
-        
-        <div class="img-wrapper">
-          <img src="assets/img/stucologo.png" width="300px" class="feat-img" />
-        
+
+
+              Students’ Council is the apex student body at Fr. Conceicao Rodrigues College Of Engineering.</br>The
+              primary duty of the students council comprises of standing strong as a bridge of formal communication
+              between the students, faculties and the administration.</br> While it seeks to address any queries and
+              resolve issues that the students or admin may face, the Student Council also relentlessly strives towards
+              the enrichment of the campus experience. We aren’t just a group of 21 people working together, rather a
+              family of well coordinated and vividly talented individuals who take pride in the Student Council. Our
+              hearts all beat for a single purpose which is, “To serve and protect the honour and integrity of the
+              council, always.” StuCo stands stronger!
+
+            </p>
+
+
+
+            <div class="img-wrapper">
+              <img src="assets/img/stucologo.png" width="300px" class="feat-img" />
+
+            </div>
+          </div>
         </div>
       </div>
     </div>
-  </div>
-</div>
 
 
     <!-- <section id="onfocus" class="onfocus">
@@ -261,7 +306,7 @@ StuCo stands stronger!
       <div class="container" data-aos="fade-up">
 
         <div class="section-header">
-          <h2 >Our Events</h2>
+          <h2>Our Events</h2>
           <hr>
           <p>Take a look at the events conducted by us.</p>
           <hr>
@@ -373,7 +418,7 @@ StuCo stands stronger!
                 <a href="#" class="stretched-link">
                   <h3>TECH DAY</h3>
                 </a>
-                
+
                 <a href="#" class="stretched-link"></a>
               </div>
             </div>
@@ -404,7 +449,7 @@ StuCo stands stronger!
             <hr class="center-ball">
           </header>
           <div class="row gy-4" id="spacing"></div>
-          
+
 
           <div class="containert">
             <div class="card">
@@ -417,24 +462,25 @@ StuCo stands stronger!
                 </div>
               </div>
               <div class="ibox">
-              <ul class="sci">
-                <li style="--i:1">
-                  <a href="mailto:taranrajpal11@gmail.com"><i class="bi bi-envelope-fill"></i></a>
-                </li>
-                <li style="--i:1">
-                  <a href="https://www.instagram.com/taranrajpal/"><i class="bi bi-instagram"></i></a>
-                </li>
-                <li style="--i:2">
-                  <a href="tel:9082343049"><i class="bi bi-whatsapp"></i> </a>
-                </li>
-                <li style="--i:3">
-                  <a href="https://www.linkedin.com/in/taran-rajpal-5b26011a3/tel: "><i class="bi bi-linkedin"></i> </a>
-                </li>
+                <ul class="sci">
+                  <li style="--i:1">
+                    <a href="mailto:taranrajpal11@gmail.com"><i class="bi bi-envelope-fill"></i></a>
+                  </li>
+                  <li style="--i:1">
+                    <a href="https://www.instagram.com/taranrajpal/"><i class="bi bi-instagram"></i></a>
+                  </li>
+                  <li style="--i:2">
+                    <a href="tel:9082343049"><i class="bi bi-whatsapp"></i> </a>
+                  </li>
+                  <li style="--i:3">
+                    <a href="https://www.linkedin.com/in/taran-rajpal-5b26011a3/tel: "><i class="bi bi-linkedin"></i>
+                    </a>
+                  </li>
 
-              </ul>
-              </div>  
+                </ul>
+              </div>
             </div>
-          
+
             <div class="card">
               <div class="content">
                 <div class="imgBx">
@@ -445,20 +491,20 @@ StuCo stands stronger!
                 </div>
               </div>
               <div class="ibox">
-              <ul class="sci">
-                <li style="--i:1">
-                  <a href="bennoanthony4@gmail.com"><i class="bi bi-envelope-fill"></i></a>
-                </li>
-                <li style="--i:1">
-                  <a href="#"><i class="bi bi-instagram"></i></a>
-                </li>
-                <li style="--i:2">
-                  <a href="tel: 9137811659"><i class="bi bi-whatsapp"></i> </a>
-                </li>
-                <li style="--i:3">
-                  <a href="https://www.linkedin.com/in/anthony-benno-26221b216"><i class="bi bi-linkedin"></i> </a>
-                </li>
-              </ul>
+                <ul class="sci">
+                  <li style="--i:1">
+                    <a href="bennoanthony4@gmail.com"><i class="bi bi-envelope-fill"></i></a>
+                  </li>
+                  <li style="--i:1">
+                    <a href="#"><i class="bi bi-instagram"></i></a>
+                  </li>
+                  <li style="--i:2">
+                    <a href="tel: 9137811659"><i class="bi bi-whatsapp"></i> </a>
+                  </li>
+                  <li style="--i:3">
+                    <a href="https://www.linkedin.com/in/anthony-benno-26221b216"><i class="bi bi-linkedin"></i> </a>
+                  </li>
+                </ul>
               </div>
             </div>
             <div class="card">
@@ -471,20 +517,20 @@ StuCo stands stronger!
                 </div>
               </div>
               <div class="ibox">
-              <ul class="sci">
-                <li style="--i:1">
-                  <a href="samuel.emmatty@gmail.com"><i class="bi bi-envelope-fill"></i></a>
-                </li>
-                <li style="--i:1">
-                  <a href="https://instagram.com/samuel_emmatty"><i class="bi bi-instagram"></i></a>
-                </li>
-                <li style="--i:2">
-                  <a href="tel: 7715825317"><i class="bi bi-whatsapp"></i> </a>
-                </li>
-                <li style="--i:3">
-                  <a href="https://www.linkedin.com/in/samuel-emmatty"><i class="bi bi-linkedin"></i> </a>
-                </li>
-              </ul>
+                <ul class="sci">
+                  <li style="--i:1">
+                    <a href="samuel.emmatty@gmail.com"><i class="bi bi-envelope-fill"></i></a>
+                  </li>
+                  <li style="--i:1">
+                    <a href="https://instagram.com/samuel_emmatty"><i class="bi bi-instagram"></i></a>
+                  </li>
+                  <li style="--i:2">
+                    <a href="tel: 7715825317"><i class="bi bi-whatsapp"></i> </a>
+                  </li>
+                  <li style="--i:3">
+                    <a href="https://www.linkedin.com/in/samuel-emmatty"><i class="bi bi-linkedin"></i> </a>
+                  </li>
+                </ul>
               </div>
             </div>
             <div class="card">
@@ -497,20 +543,20 @@ StuCo stands stronger!
                 </div>
               </div>
               <div class="ibox">
-              <ul class="sci">
-                <li style="--i:1">
-                  <a href="dsilva.ivan.02@gmail.com"><i class="bi bi-envelope-fill"></i></a>
-                </li>
-                <li style="--i:1">
-                  <a href="https://www.instagram.com/ivandsilva3110/"><i class="bi bi-instagram"></i></a>
-                </li>
-                <li style="--i:2">
-                  <a href="tel: 8104413527"><i class="bi bi-whatsapp"></i> </a>
-                </li>
-                <li style="--i:3">
-                  <a href="https://www.linkedin.com/in/eden-charles-48b73522b"><i class="bi bi-linkedin"></i> </a>
-                </li>
-              </ul>
+                <ul class="sci">
+                  <li style="--i:1">
+                    <a href="dsilva.ivan.02@gmail.com"><i class="bi bi-envelope-fill"></i></a>
+                  </li>
+                  <li style="--i:1">
+                    <a href="https://www.instagram.com/ivandsilva3110/"><i class="bi bi-instagram"></i></a>
+                  </li>
+                  <li style="--i:2">
+                    <a href="tel: 8104413527"><i class="bi bi-whatsapp"></i> </a>
+                  </li>
+                  <li style="--i:3">
+                    <a href="https://www.linkedin.com/in/eden-charles-48b73522b"><i class="bi bi-linkedin"></i> </a>
+                  </li>
+                </ul>
               </div>
             </div>
             <div class="card">
@@ -523,20 +569,21 @@ StuCo stands stronger!
                 </div>
               </div>
               <div class="ibox">
-              <ul class="sci">
-                <li style="--i:1">
-                  <a href="emmanuelvazathra@gmail.com "><i class="bi bi-envelope-fill"></i></a>
-                </li>
-                <li style="--i:1">
-                  <a href="_emmanuel.vazathra_"><i class="bi bi-instagram"></i></a>
-                </li>
-                <li style="--i:2">
-                  <a href="tel: 7558429773"><i class="bi bi-whatsapp"></i> </a>
-                </li>
-                <li style="--i:3">
-                  <a href="https://www.linkedin.com/in/emmanuel-vazathra-64368121a"><i class="bi bi-linkedin"></i> </a>
-                </li>
-              </ul>
+                <ul class="sci">
+                  <li style="--i:1">
+                    <a href="emmanuelvazathra@gmail.com "><i class="bi bi-envelope-fill"></i></a>
+                  </li>
+                  <li style="--i:1">
+                    <a href="_emmanuel.vazathra_"><i class="bi bi-instagram"></i></a>
+                  </li>
+                  <li style="--i:2">
+                    <a href="tel: 7558429773"><i class="bi bi-whatsapp"></i> </a>
+                  </li>
+                  <li style="--i:3">
+                    <a href="https://www.linkedin.com/in/emmanuel-vazathra-64368121a"><i class="bi bi-linkedin"></i>
+                    </a>
+                  </li>
+                </ul>
               </div>
             </div>
             <div class="card">
@@ -549,20 +596,20 @@ StuCo stands stronger!
                 </div>
               </div>
               <div class="ibox">
-              <ul class="sci">
-                <li style="--i:1">
-                  <a href="nanadikarrenu@gmail.com"><i class="bi bi-envelope-fill"></i></a>
-                </li>
-                <li style="--i:1">
-                  <a href="#"><i class="bi bi-instagram"></i></a>
-                </li>
-                <li style="--i:2">
-                  <a href="tel: 7447346225"><i class="bi bi-whatsapp"></i> </a>
-                </li>
-                <li style="--i:3">
-                  <a href="https://www.linkedin.com/in/renu-nanadikar-4641ab202"><i class="bi bi-linkedin"></i> </a>
-                </li>
-              </ul>
+                <ul class="sci">
+                  <li style="--i:1">
+                    <a href="nanadikarrenu@gmail.com"><i class="bi bi-envelope-fill"></i></a>
+                  </li>
+                  <li style="--i:1">
+                    <a href="#"><i class="bi bi-instagram"></i></a>
+                  </li>
+                  <li style="--i:2">
+                    <a href="tel: 7447346225"><i class="bi bi-whatsapp"></i> </a>
+                  </li>
+                  <li style="--i:3">
+                    <a href="https://www.linkedin.com/in/renu-nanadikar-4641ab202"><i class="bi bi-linkedin"></i> </a>
+                  </li>
+                </ul>
               </div>
             </div>
             <div class="card">
@@ -575,20 +622,20 @@ StuCo stands stronger!
                 </div>
               </div>
               <div class="ibox">
-              <ul class="sci">
-                <li style="--i:1">
-                  <a href="dhruveepannchal7666@gmail.com"><i class="bi bi-envelope-fill"></i></a>
-                </li>
-                <li style="--i:1">
-                  <a href="https://instagram.com/kinchukkk?igshid=YmMyMTA2M2Y="><i class="bi bi-instagram"></i></a>
-                </li>
-                <li style="--i:2">
-                  <a href="tel: 7745044969"><i class="bi bi-whatsapp"></i> </a>
-                </li>
-                <li style="--i:3">
-                  <a href="http://linkedin.com/in/dhruvi-panchal-5a0b93176"><i class="bi bi-linkedin"></i> </a>
-                </li>
-              </ul>
+                <ul class="sci">
+                  <li style="--i:1">
+                    <a href="dhruveepannchal7666@gmail.com"><i class="bi bi-envelope-fill"></i></a>
+                  </li>
+                  <li style="--i:1">
+                    <a href="https://instagram.com/kinchukkk?igshid=YmMyMTA2M2Y="><i class="bi bi-instagram"></i></a>
+                  </li>
+                  <li style="--i:2">
+                    <a href="tel: 7745044969"><i class="bi bi-whatsapp"></i> </a>
+                  </li>
+                  <li style="--i:3">
+                    <a href="http://linkedin.com/in/dhruvi-panchal-5a0b93176"><i class="bi bi-linkedin"></i> </a>
+                  </li>
+                </ul>
               </div>
             </div>
             <div class="card">
@@ -601,18 +648,18 @@ StuCo stands stronger!
                 </div>
               </div>
               <div class="ibox">
-              <ul class="sci">
-                <li style="--i:1">
-                  <a href="Iamfarhan74@gmail.com "><i class="bi bi-envelope-fill"></i></a>
-                </li>
-                <li style="--i:1">
-                  <a href="https://instagram.com/farhaneit?igshid=YmMyMTA2M2Y="><i class="bi bi-instagram"></i></a>
-                </li>
-                <li style="--i:2">
-                  <a href="tel: 9867320069"><i class="bi bi-whatsapp"></i> </a>
-                </li>
-                
-              </ul>
+                <ul class="sci">
+                  <li style="--i:1">
+                    <a href="Iamfarhan74@gmail.com "><i class="bi bi-envelope-fill"></i></a>
+                  </li>
+                  <li style="--i:1">
+                    <a href="https://instagram.com/farhaneit?igshid=YmMyMTA2M2Y="><i class="bi bi-instagram"></i></a>
+                  </li>
+                  <li style="--i:2">
+                    <a href="tel: 9867320069"><i class="bi bi-whatsapp"></i> </a>
+                  </li>
+
+                </ul>
               </div>
             </div>
 
@@ -627,20 +674,20 @@ StuCo stands stronger!
                 </div>
               </div>
               <div class="ibox">
-              <ul class="sci">
-                <li style="--i:1">
-                  <a href="Siddharthnair2298@gmail.com"><i class="bi bi-envelope-fill"></i></a>
-                </li>
-                <li style="--i:1">
-                  <a href="siddharthxnair"><i class="bi bi-instagram"></i></a>
-                </li>
-                <li style="--i:2">
-                  <a href="tel: 8291399630"><i class="bi bi-whatsapp"></i> </a>
-                </li>
-                <li style="--i:3">
-                  <a href="https://www.linkedin.com/in/siddharthknair"><i class="bi bi-linkedin"></i> </a>
-                </li>
-              </ul>
+                <ul class="sci">
+                  <li style="--i:1">
+                    <a href="Siddharthnair2298@gmail.com"><i class="bi bi-envelope-fill"></i></a>
+                  </li>
+                  <li style="--i:1">
+                    <a href="siddharthxnair"><i class="bi bi-instagram"></i></a>
+                  </li>
+                  <li style="--i:2">
+                    <a href="tel: 8291399630"><i class="bi bi-whatsapp"></i> </a>
+                  </li>
+                  <li style="--i:3">
+                    <a href="https://www.linkedin.com/in/siddharthknair"><i class="bi bi-linkedin"></i> </a>
+                  </li>
+                </ul>
               </div>
             </div>
             <div class="card">
@@ -653,18 +700,18 @@ StuCo stands stronger!
                 </div>
               </div>
               <div class="ibox">
-              <ul class="sci">
-                <li style="--i:1">
-                  <a href="jeshurun2412@gmail.com"><i class="bi bi-envelope-fill"></i></a>
-                </li>
-                <li style="--i:1">
-                  <a href="9892652928"><i class="bi bi-instagram"></i></a>
-                </li>
-                <li style="--i:2">
-                  <a href="tel: 9892652928"><i class="bi bi-whatsapp"></i> </a>
-                </li>
-                
-              </ul>
+                <ul class="sci">
+                  <li style="--i:1">
+                    <a href="jeshurun2412@gmail.com"><i class="bi bi-envelope-fill"></i></a>
+                  </li>
+                  <li style="--i:1">
+                    <a href="9892652928"><i class="bi bi-instagram"></i></a>
+                  </li>
+                  <li style="--i:2">
+                    <a href="tel: 9892652928"><i class="bi bi-whatsapp"></i> </a>
+                  </li>
+
+                </ul>
               </div>
             </div>
             <div class="card">
@@ -677,20 +724,20 @@ StuCo stands stronger!
                 </div>
               </div>
               <div class="ibox">
-              <ul class="sci">
-                <li style="--i:1">
-                  <a href="tanujksci@gmail.com"><i class="bi bi-envelope-fill"></i></a>
-                </li>
-                <li style="--i:1">
-                  <a href="https://www.instagram.com/import.java.life/"><i class="bi bi-instagram"></i></a>
-                </li>
-                <li style="--i:2">
-                  <a href="tel: 7700007543"><i class="bi bi-whatsapp"></i> </a>
-                </li>
-                <li style="--i:3">
-                  <a href="https://www.linkedin.com/in/tanujkumbhar/"><i class="bi bi-linkedin"></i> </a>
-                </li>
-              </ul>
+                <ul class="sci">
+                  <li style="--i:1">
+                    <a href="tanujksci@gmail.com"><i class="bi bi-envelope-fill"></i></a>
+                  </li>
+                  <li style="--i:1">
+                    <a href="https://www.instagram.com/import.java.life/"><i class="bi bi-instagram"></i></a>
+                  </li>
+                  <li style="--i:2">
+                    <a href="tel: 7700007543"><i class="bi bi-whatsapp"></i> </a>
+                  </li>
+                  <li style="--i:3">
+                    <a href="https://www.linkedin.com/in/tanujkumbhar/"><i class="bi bi-linkedin"></i> </a>
+                  </li>
+                </ul>
               </div>
             </div>
 
@@ -923,13 +970,13 @@ StuCo stands stronger!
       <section>
 
         <div class="container" data-aos="fade-up">
-            <header class="section-header">
-  
-              <!-- <h1>MEET OUR TEAM</h1> -->
-              <hr class="center-ball">
-              <p>THE DELIGHTFUL JUNIOR COUNCIL</p>
-              <hr class="center-ball">
-            </header> 
+          <header class="section-header">
+
+            <!-- <h1>MEET OUR TEAM</h1> -->
+            <hr class="center-ball">
+            <p>THE DELIGHTFUL JUNIOR COUNCIL</p>
+            <hr class="center-ball">
+          </header>
 
           <div class="containert">
             <div class="card">
@@ -942,20 +989,20 @@ StuCo stands stronger!
                 </div>
               </div>
               <div class="ibox">
-              <ul class="sci">
-                <li style="--i:1">
-                  <a href="Krishnasheetal44@gmail.com"><i class="bi bi-envelope-fill"></i></a>
-                </li>
-                
-                <li style="--i:2">
-                  <a href="tel: 9326665726"><i class="bi bi-whatsapp"></i> </a>
-                </li>
-               
+                <ul class="sci">
+                  <li style="--i:1">
+                    <a href="Krishnasheetal44@gmail.com"><i class="bi bi-envelope-fill"></i></a>
+                  </li>
 
-              </ul>
-              </div>  
+                  <li style="--i:2">
+                    <a href="tel: 9326665726"><i class="bi bi-whatsapp"></i> </a>
+                  </li>
+
+
+                </ul>
+              </div>
             </div>
-          
+
             <div class="card">
               <div class="content">
                 <div class="imgBx">
@@ -966,18 +1013,18 @@ StuCo stands stronger!
                 </div>
               </div>
               <div class="ibox">
-              <ul class="sci">
-                <li style="--i:1">
-                  <a href="gauravmishragm04@gmail.com"><i class="bi bi-envelope-fill"></i></a>
-                </li>
-                <li style="--i:1">
-                  <a href="https://instagram.com/gaurav_0428?igshid=YmMyMTA2M2Y="><i class="bi bi-instagram"></i></a>
-                </li>
-                <li style="--i:2">
-                  <a href="tel: 8652100177"><i class="bi bi-whatsapp"></i> </a>
-                </li>
-                
-              </ul>
+                <ul class="sci">
+                  <li style="--i:1">
+                    <a href="gauravmishragm04@gmail.com"><i class="bi bi-envelope-fill"></i></a>
+                  </li>
+                  <li style="--i:1">
+                    <a href="https://instagram.com/gaurav_0428?igshid=YmMyMTA2M2Y="><i class="bi bi-instagram"></i></a>
+                  </li>
+                  <li style="--i:2">
+                    <a href="tel: 8652100177"><i class="bi bi-whatsapp"></i> </a>
+                  </li>
+
+                </ul>
               </div>
             </div>
             <div class="card">
@@ -990,20 +1037,20 @@ StuCo stands stronger!
                 </div>
               </div>
               <div class="ibox">
-              <ul class="sci">
-                <li style="--i:1">
-                  <a href="frcrcesahil@gmail.com"><i class="bi bi-envelope-fill"></i></a>
-                </li>
-                <li style="--i:1">
-                  <a href="https://instagram.com/isaahiil?igshid=YmMyMTA2M2Y="><i class="bi bi-instagram"></i></a>
-                </li>
-                <li style="--i:2">
-                  <a href="tel: 9555621194"><i class="bi bi-whatsapp"></i> </a>
-                </li>
-                <li style="--i:3">
-                  <a href="https://www.linkedin.com/in/sahil-khan-789ab5247"><i class="bi bi-linkedin"></i> </a>
-                </li>
-              </ul>
+                <ul class="sci">
+                  <li style="--i:1">
+                    <a href="frcrcesahil@gmail.com"><i class="bi bi-envelope-fill"></i></a>
+                  </li>
+                  <li style="--i:1">
+                    <a href="https://instagram.com/isaahiil?igshid=YmMyMTA2M2Y="><i class="bi bi-instagram"></i></a>
+                  </li>
+                  <li style="--i:2">
+                    <a href="tel: 9555621194"><i class="bi bi-whatsapp"></i> </a>
+                  </li>
+                  <li style="--i:3">
+                    <a href="https://www.linkedin.com/in/sahil-khan-789ab5247"><i class="bi bi-linkedin"></i> </a>
+                  </li>
+                </ul>
               </div>
             </div>
             <div class="card">
@@ -1016,20 +1063,20 @@ StuCo stands stronger!
                 </div>
               </div>
               <div class="ibox">
-              <ul class="sci">
-                <li style="--i:1">
-                  <a href="mugdhadzope@gmail.com"><i class="bi bi-envelope-fill"></i></a>
-                </li>
-                <li style="--i:1">
-                  <a href="https://www.instagram.com/mugdhaaz/"><i class="bi bi-instagram"></i></a>
-                </li>
-                <li style="--i:2">
-                  <a href="tel: 9923207636"><i class="bi bi-whatsapp"></i> </a>
-                </li>
-                <li style="--i:3">
-                  <a href="https://www.linkedin.com/in/mugdha-zope-58194822b"><i class="bi bi-linkedin"></i> </a>
-                </li>
-              </ul>
+                <ul class="sci">
+                  <li style="--i:1">
+                    <a href="mugdhadzope@gmail.com"><i class="bi bi-envelope-fill"></i></a>
+                  </li>
+                  <li style="--i:1">
+                    <a href="https://www.instagram.com/mugdhaaz/"><i class="bi bi-instagram"></i></a>
+                  </li>
+                  <li style="--i:2">
+                    <a href="tel: 9923207636"><i class="bi bi-whatsapp"></i> </a>
+                  </li>
+                  <li style="--i:3">
+                    <a href="https://www.linkedin.com/in/mugdha-zope-58194822b"><i class="bi bi-linkedin"></i> </a>
+                  </li>
+                </ul>
               </div>
             </div>
             <div class="card">
@@ -1042,20 +1089,20 @@ StuCo stands stronger!
                 </div>
               </div>
               <div class="ibox">
-              <ul class="sci">
-                <li style="--i:1">
-                  <a href="edenevelyncharles2003@gmail.com"><i class="bi bi-envelope-fill"></i></a>
-                </li>
-                <li style="--i:1">
-                  <a href="https://www.instagram.com/ed_charles_13/"><i class="bi bi-instagram"></i></a>
-                </li>
-                <li style="--i:2">
-                  <a href="tel: 7045650317"><i class="bi bi-whatsapp"></i> </a>
-                </li>
-                <li style="--i:3">
-                  <a href="https://www.linkedin.com/in/eden-charles-48b73522b"><i class="bi bi-linkedin"></i> </a>
-                </li>
-              </ul>
+                <ul class="sci">
+                  <li style="--i:1">
+                    <a href="edenevelyncharles2003@gmail.com"><i class="bi bi-envelope-fill"></i></a>
+                  </li>
+                  <li style="--i:1">
+                    <a href="https://www.instagram.com/ed_charles_13/"><i class="bi bi-instagram"></i></a>
+                  </li>
+                  <li style="--i:2">
+                    <a href="tel: 7045650317"><i class="bi bi-whatsapp"></i> </a>
+                  </li>
+                  <li style="--i:3">
+                    <a href="https://www.linkedin.com/in/eden-charles-48b73522b"><i class="bi bi-linkedin"></i> </a>
+                  </li>
+                </ul>
               </div>
             </div>
             <div class="card">
@@ -1068,18 +1115,18 @@ StuCo stands stronger!
                 </div>
               </div>
               <div class="ibox">
-              <ul class="sci">
-                <li style="--i:1">
-                  <a href="graceantony0505@gmail.com "><i class="bi bi-envelope-fill"></i></a>
-                </li>
-                <li style="--i:1">
-                  <a href="graceantony05 "><i class="bi bi-instagram"></i></a>
-                </li>
-                <li style="--i:2">
-                  <a href="tel: 9321182692"><i class="bi bi-whatsapp"></i> </a>
-                </li>
-                
-              </ul>
+                <ul class="sci">
+                  <li style="--i:1">
+                    <a href="graceantony0505@gmail.com "><i class="bi bi-envelope-fill"></i></a>
+                  </li>
+                  <li style="--i:1">
+                    <a href="graceantony05 "><i class="bi bi-instagram"></i></a>
+                  </li>
+                  <li style="--i:2">
+                    <a href="tel: 9321182692"><i class="bi bi-whatsapp"></i> </a>
+                  </li>
+
+                </ul>
               </div>
             </div>
             <div class="card">
@@ -1092,20 +1139,20 @@ StuCo stands stronger!
                 </div>
               </div>
               <div class="ibox">
-              <ul class="sci">
-                <li style="--i:1">
-                  <a href="chrisgracias1@gmail.com"><i class="bi bi-envelope-fill"></i></a>
-                </li>
-                <li style="--i:1">
-                  <a href="https://www.instagram.com/chris_3033/?hl=en"><i class="bi bi-instagram"></i></a>
-                </li>
-                <li style="--i:2">
-                  <a href="tel: 9004142802"><i class="bi bi-whatsapp"></i> </a>
-                </li>
-                <li style="--i:3">
-                  <a href="https://www.linkedin.com/in/chrisgracias/"><i class="bi bi-linkedin"></i> </a>
-                </li>
-              </ul>
+                <ul class="sci">
+                  <li style="--i:1">
+                    <a href="chrisgracias1@gmail.com"><i class="bi bi-envelope-fill"></i></a>
+                  </li>
+                  <li style="--i:1">
+                    <a href="https://www.instagram.com/chris_3033/?hl=en"><i class="bi bi-instagram"></i></a>
+                  </li>
+                  <li style="--i:2">
+                    <a href="tel: 9004142802"><i class="bi bi-whatsapp"></i> </a>
+                  </li>
+                  <li style="--i:3">
+                    <a href="https://www.linkedin.com/in/chrisgracias/"><i class="bi bi-linkedin"></i> </a>
+                  </li>
+                </ul>
               </div>
             </div>
             <div class="card">
@@ -1118,20 +1165,20 @@ StuCo stands stronger!
                 </div>
               </div>
               <div class="ibox">
-              <ul class="sci">
-                <li style="--i:1">
-                  <a href="vigneshrk3001@gmail.com"><i class="bi bi-envelope-fill"></i></a>
-                </li>
-                <li style="--i:1">
-                  <a href="vknesh.11"><i class="bi bi-instagram"></i></a>
-                </li>
-                <li style="--i:2">
-                  <a href="tel: 7715826632"><i class="bi bi-whatsapp"></i> </a>
-                </li>
-                <li style="--i:3">
-                  <a href="#"><i class="bi bi-linkedin"></i> </a>
-                </li>
-              </ul>
+                <ul class="sci">
+                  <li style="--i:1">
+                    <a href="vigneshrk3001@gmail.com"><i class="bi bi-envelope-fill"></i></a>
+                  </li>
+                  <li style="--i:1">
+                    <a href="vknesh.11"><i class="bi bi-instagram"></i></a>
+                  </li>
+                  <li style="--i:2">
+                    <a href="tel: 7715826632"><i class="bi bi-whatsapp"></i> </a>
+                  </li>
+                  <li style="--i:3">
+                    <a href="#"><i class="bi bi-linkedin"></i> </a>
+                  </li>
+                </ul>
               </div>
             </div>
 
@@ -1146,20 +1193,20 @@ StuCo stands stronger!
                 </div>
               </div>
               <div class="ibox">
-              <ul class="sci">
-                <li style="--i:1">
-                  <a href="hegdeishan10@gmail.com"><i class="bi bi-envelope-fill"></i></a>
-                </li>
-                <li style="--i:1">
-                  <a href="https://instagram.com/ishan.hegde?igshid=YmMyMTA2M2Y="><i class="bi bi-instagram"></i></a>
-                </li>
-                <li style="--i:2">
-                  <a href="tel: 7304845219"><i class="bi bi-whatsapp"></i> </a>
-                </li>
-                <li style="--i:3">
-                  <a href="https://www.linkedin.com/in/ishan-hegde-53273622b"><i class="bi bi-linkedin"></i> </a>
-                </li>
-              </ul>
+                <ul class="sci">
+                  <li style="--i:1">
+                    <a href="hegdeishan10@gmail.com"><i class="bi bi-envelope-fill"></i></a>
+                  </li>
+                  <li style="--i:1">
+                    <a href="https://instagram.com/ishan.hegde?igshid=YmMyMTA2M2Y="><i class="bi bi-instagram"></i></a>
+                  </li>
+                  <li style="--i:2">
+                    <a href="tel: 7304845219"><i class="bi bi-whatsapp"></i> </a>
+                  </li>
+                  <li style="--i:3">
+                    <a href="https://www.linkedin.com/in/ishan-hegde-53273622b"><i class="bi bi-linkedin"></i> </a>
+                  </li>
+                </ul>
               </div>
             </div>
             <div class="card">
@@ -1172,20 +1219,20 @@ StuCo stands stronger!
                 </div>
               </div>
               <div class="ibox">
-              <ul class="sci">
-                <li style="--i:1">
-                  <a href="anwayastudies@gmail.com "><i class="bi bi-envelope-fill"></i></a>
-                </li>
-                <li style="--i:1">
-                  <a href="anwayaaa"><i class="bi bi-instagram"></i></a>
-                </li>
-                <li style="--i:2">
-                  <a href="tel: 9769929347"><i class="bi bi-whatsapp"></i> </a>
-                </li>
-                <li style="--i:3">
-                  <a href="http://linkedin.com/in/anwaya-belwalkar-46a472230"><i class="bi bi-linkedin"></i> </a>
-                </li>
-              </ul>
+                <ul class="sci">
+                  <li style="--i:1">
+                    <a href="anwayastudies@gmail.com "><i class="bi bi-envelope-fill"></i></a>
+                  </li>
+                  <li style="--i:1">
+                    <a href="anwayaaa"><i class="bi bi-instagram"></i></a>
+                  </li>
+                  <li style="--i:2">
+                    <a href="tel: 9769929347"><i class="bi bi-whatsapp"></i> </a>
+                  </li>
+                  <li style="--i:3">
+                    <a href="http://linkedin.com/in/anwaya-belwalkar-46a472230"><i class="bi bi-linkedin"></i> </a>
+                  </li>
+                </ul>
               </div>
             </div>
             <div class="card">
@@ -1198,20 +1245,20 @@ StuCo stands stronger!
                 </div>
               </div>
               <div class="ibox">
-              <ul class="sci">
-                <li style="--i:1">
-                  <a href="riyajaison04@gmail.com "><i class="bi bi-envelope-fill"></i></a>
-                </li>
-                <li style="--i:1">
-                  <a href="http://instagram.com/riyajaison_04"><i class="bi bi-instagram"></i></a>
-                </li>
-                <li style="--i:2">
-                  <a href="tel: 8452843312"><i class="bi bi-whatsapp"></i> </a>
-                </li>
-                <li style="--i:3">
-                  <a href="https://www.linkedin.com/in/riya-jaison-8422b11ab"><i class="bi bi-linkedin"></i> </a>
-                </li>
-              </ul>
+                <ul class="sci">
+                  <li style="--i:1">
+                    <a href="riyajaison04@gmail.com "><i class="bi bi-envelope-fill"></i></a>
+                  </li>
+                  <li style="--i:1">
+                    <a href="http://instagram.com/riyajaison_04"><i class="bi bi-instagram"></i></a>
+                  </li>
+                  <li style="--i:2">
+                    <a href="tel: 8452843312"><i class="bi bi-whatsapp"></i> </a>
+                  </li>
+                  <li style="--i:3">
+                    <a href="https://www.linkedin.com/in/riya-jaison-8422b11ab"><i class="bi bi-linkedin"></i> </a>
+                  </li>
+                </ul>
               </div>
             </div>
             <div class="card">
@@ -1224,20 +1271,21 @@ StuCo stands stronger!
                 </div>
               </div>
               <div class="ibox">
-              <ul class="sci">
-                <li style="--i:1">
-                  <a href="riannarebello3@gmail.com"><i class="bi bi-envelope-fill"></i></a>
-                </li>
-                <li style="--i:1">
-                  <a href="https://instagram.com/not_riirii?igshid=YmMyMTA2M2Y=   "><i class="bi bi-instagram"></i></a>
-                </li>
-                <li style="--i:2">
-                  <a href="tel: 9833973932"><i class="bi bi-whatsapp"></i> </a>
-                </li>
-                <li style="--i:3">
-                  <a href="https://www.linkedin.com/in/rianna-rebello-b06a42231"><i class="bi bi-linkedin"></i> </a>
-                </li>
-              </ul>
+                <ul class="sci">
+                  <li style="--i:1">
+                    <a href="riannarebello3@gmail.com"><i class="bi bi-envelope-fill"></i></a>
+                  </li>
+                  <li style="--i:1">
+                    <a href="https://instagram.com/not_riirii?igshid=YmMyMTA2M2Y=   "><i
+                        class="bi bi-instagram"></i></a>
+                  </li>
+                  <li style="--i:2">
+                    <a href="tel: 9833973932"><i class="bi bi-whatsapp"></i> </a>
+                  </li>
+                  <li style="--i:3">
+                    <a href="https://www.linkedin.com/in/rianna-rebello-b06a42231"><i class="bi bi-linkedin"></i> </a>
+                  </li>
+                </ul>
               </div>
             </div>
 
@@ -1254,9 +1302,9 @@ StuCo stands stronger!
           <p></p>
           <hr class="center-ball">
         </header> -->
-        
-      
-        <!-- <div class="row gy-4" id="spacing">
+
+
+      <!-- <div class="row gy-4" id="spacing">
 
           <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
             <div class="member">
@@ -1334,9 +1382,9 @@ StuCo stands stronger!
 
         </div>
         <br><br> -->
-        <!--Second Row -->
+      <!--Second Row -->
 
-        <!-- <div class="row gy-4" id="spacing">
+      <!-- <div class="row gy-4" id="spacing">
 
           <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
             <div class="member">
@@ -1418,9 +1466,9 @@ StuCo stands stronger!
 
         </div>
         <br><br> -->
-        <!--Third Line-->
+      <!--Third Line-->
 
-        <!-- <div class="row gy-4 third_row" id="spacing">
+      <!-- <div class="row gy-4 third_row" id="spacing">
 
           <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="300">
             <div class="member">
@@ -1463,7 +1511,7 @@ StuCo stands stronger!
 
 
     </section> -->
-        <!-- <section>
+      <!-- <section>
           <div class="containert">
             <div class="card">
               <div class="content">
@@ -1723,17 +1771,17 @@ StuCo stands stronger!
 
           </div>
         </section> -->
-        <!-- End Team Section -->
+      <!-- End Team Section -->
 
 
-  <!-- End #main -->
+      <!-- End #main -->
 
 
 
-  <!-- ======= Footer ======= -->
+      <!-- ======= Footer ======= -->
 
 
-  
+
       <!-- <h1>Contact Us</h1> -->
       <!-- <section id="contact" class="contact">
         <header class="section-header">
@@ -1749,39 +1797,39 @@ StuCo stands stronger!
            STICKS TOGETHER 
         </p>
         </div> -->
-      </main><!-- End #main -->
+  </main><!-- End #main -->
 
 
 
-      <!-- ======= Footer ======= -->
-    
-      <section id="contact" class="contact">
-        <header class="section-header" style="padding-top:0px;">
-          <hr>
-          <h1>Contact Us</h1>
-          <hr>
-          <!-- <p id="contactContent">Our Social Media Links</p> -->
-          
-        </header>
-    
-        <!--Stuco typing animation-->
-    
-        <div class="stucoani">
-          <div class="down">
-            <p class="foot">
-              STAYS TOGETHER
-              <span class="bottom">
-                #StuCo
-              </span>
-               STICKS TOGETHER 
-            </p>
-            </div>
-        </div>
-      </section>
+  <!-- ======= Footer ======= -->
+
+  <section id="contact" class="contact">
+    <header class="section-header" style="padding-top:0px;">
+      <hr>
+      <h1>Contact Us</h1>
+      <hr>
+      <!-- <p id="contactContent">Our Social Media Links</p> -->
+
+    </header>
+
+    <!--Stuco typing animation-->
+
+    <div class="stucoani">
+      <div class="down">
+        <p class="foot">
+          STAYS TOGETHER
+          <span class="bottom">
+            #StuCo
+          </span>
+          STICKS TOGETHER
+        </p>
+      </div>
+    </div>
+  </section>
 
 
-    
-    <!--Stuco typing animation--
+
+  <!--Stuco typing animation--
 
     <div class="stucoani">
       <div class="static-txt">#StuCo</div>
@@ -1798,10 +1846,10 @@ StuCo stands stronger!
 
   !-- End Footer -->
 
-  
-  
-    
-   <!--Social Media links -->
+
+
+
+  <!--Social Media links -->
 
 
   <!-- <div class="social_contact">
@@ -1865,61 +1913,61 @@ StuCo stands stronger!
         </a>
         <br>
       </div> -->
-<!-- comment -->
+  <!-- comment -->
 
-        
-        <div id='contact-info'>
-          <div class='links'>
-            <a href='https://www.linkedin.com/in/illia-chaban/' target='_blank' class="orange-background">
-              <div>
-                <span></span>
-                <span></span>
-                <span></span>
-                <span></span>
-                <span>
-                      <i class="fab fa-linkedin-in"></i>
-                    </span>
-              </div>
-            </a>
-            <a href='https://github.com/illiaChaban' target='_blank' class='orange-background' >
-              <div>
-                <span></span>
-                <span></span>
-                <span></span>
-                <span></span>
-                <span>
-                      <i class="fab fa-youtube"></i>
-                    </span>
-      
-              </div>
-            </a>
-            <a href='https://www.facebook.com/illia.chaban.8' class='orange-background' target='_blank'>
-              <div>
-                <span></span>
-                <span></span>
-                <span></span>
-                <span></span>
-                <span>
-                      <i class="fab fa-facebook-f"></i>
-                    </span>
-              </div>
-            </a>
-            <a href='https://www.instagram.com/illia.archi' class='orange-background' target='_blank'>
-              <div>
-                <span></span>
-                <span></span>
-                <span></span>
-                <span></span>
-                <span>
-                      <i class="fab fa-instagram"></i>
-                    </span>
-              </div>
-            </a>
-          </div>
+
+  <div id='contact-info'>
+    <div class='links'>
+      <a href='https://www.linkedin.com/in/illia-chaban/' target='_blank' class="orange-background">
+        <div>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span>
+            <i class="fab fa-linkedin-in"></i>
+          </span>
         </div>
-        
+      </a>
+      <a href='https://github.com/illiaChaban' target='_blank' class='orange-background'>
+        <div>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span>
+            <i class="fab fa-youtube"></i>
+          </span>
 
+        </div>
+      </a>
+      <a href='https://www.facebook.com/illia.chaban.8' class='orange-background' target='_blank'>
+        <div>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span>
+            <i class="fab fa-facebook-f"></i>
+          </span>
+        </div>
+      </a>
+      <a href='https://www.instagram.com/illia.archi' class='orange-background' target='_blank'>
+        <div>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span>
+            <i class="fab fa-instagram"></i>
+          </span>
+        </div>
+      </a>
     </div>
+  </div>
+
+
+  </div>
   </div>
 
 
