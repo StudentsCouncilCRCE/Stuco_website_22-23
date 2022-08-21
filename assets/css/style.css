@@ -730,13 +730,13 @@ section {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: url(../img/Wave-10s-1280px.svg);
+  
   background-size: contain;
   
 
 }
 
-.glass {
+/* .glass {
   background: rgba(89, 154, 207, 0.146);
   box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.466);
   backdrop-filter: blur(4px);
@@ -745,15 +745,15 @@ section {
   border: 1px solid rgba(130, 59, 59, 0.15);
   padding: 45px;
 
-}
+} */
 
-.hero h1 {
+/* .hero h1 {
   font-family: Apple Chancery, cursive;
   margin: 0;
   font-size: 50px;
   font-weight: 400;
   color: white;
-}
+} */
 
 .hero h2 {
   color: darkgrey;
@@ -1710,7 +1710,7 @@ section {
 	max-width: 80vw;
 	margin-top: 10vh;
 	margin-bottom: 30px;
-	padding: 50px;
+	padding: 50px ;
 	border: 1px solid orange;
 	background: rgb(0, 0, 0,0.05);
 	box-shadow: 50px 60px 100px rgba(0, 0, 0, 0.05);
@@ -1726,7 +1726,7 @@ section {
 	margin-top: 15vh;
 	font-weight: normal;
 	display: inline-block;
-	padding: 20px;
+	padding: 20px ;
 }
 .main-title {
 	font-size: 35px;
@@ -1797,6 +1797,9 @@ html, body, #contact-info {
   background-color: #000000;
 
 }
+
+
+
 
 #contact-info .links {
   display: flex;
@@ -1949,6 +1952,10 @@ html, body, #contact-info {
 	  margin: 0 auto;
   	text-shadow: 0 0 80px rgba(255,255,255,.5);
 
+   
+      
+    
+
 /* Clip Background Image */
 
 	  background: url(https://i.ibb.co/RDTnNrT/animated-text-fill.png) repeat-y;
@@ -1974,6 +1981,55 @@ html, body, #contact-info {
 	0% { background-position: 0% 50%; }
 	100% { background-position: 100% 50%; }
 }
+
+@media screen and (max-width:480px){
+.bottom{
+  font-size:40px ;
+}
+}
+/* oculus  */
+#magic {
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  display: block;
+  top: 0;
+  left: 0;
+  z-index: -9999;
+}
+
+.playground {
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  display: block;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+.bottomPosition {
+  text-align: center;
+  margin-bottom: 50px;
+}
+.minText {
+  font-size: 14px;
+}
+
+a {
+  color: white;
+  font-size: 12px;
+  text-decoration: none;
+}
+
+.logo {
+  width: 50px;
+  height: 50px;
+}
+
 
 
 
