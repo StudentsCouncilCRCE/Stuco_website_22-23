@@ -114,7 +114,7 @@ class CreateParticles {
     this.buttom = false;
 
     this.data = {
-      text: "STUDENTS' \n COUNCIL",
+      text: "STUDENTS'\n COUNCIL \n2022-2023",
       amount: 1500,
       particleSize: 1,
       particleColor: 0xffffff,
