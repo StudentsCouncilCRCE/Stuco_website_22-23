@@ -1569,14 +1569,14 @@ section {
   margin-top: -48vh;
 }
 
-@media (min-width: 320px) and (max-width: 480px) {
+@media (min-width: 320px) and (max-width: 700px) {
   /* .nav-bar {
 		display: none;
 	} */
   .feat-img {
     display: relative;
     margin-right: 30px;
-    margin-top: 300px;
+    margin-top: 400px;
     width: 100px;
   }
   .main-desc {
