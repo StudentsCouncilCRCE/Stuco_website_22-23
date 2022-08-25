@@ -463,6 +463,14 @@ section {
 .navbar-mobile .dropdown > .dropdown-active {
   display: block;
 }
+.navb{
+  padding-left: 400px;
+}
+@media (min-width: 320px) and (max-width: 480px){
+  .navb{
+    padding-left: 0px;
+  }
+}
 
 /*--------------------------------------------------------------
 # Hero Section
@@ -1547,9 +1555,11 @@ body,
   display: block;
   top: 0;
   left: 0;
+  
 }
 
 .playground {
+  
   position: absolute;
   width: 100%;
   height: 100vh;
