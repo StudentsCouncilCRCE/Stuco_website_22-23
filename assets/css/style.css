@@ -1292,28 +1292,35 @@ section {
   line-height: 25px;
   width: 50%;
 }
-
-.img-wrapper {
-  display: flex;
+.feat-img{
   float: right;
-  margin-top: -48vh;
+  margin-top: -350px;
 }
+
 
 @media (min-width: 320px) and (max-width: 700px) {
   /* .nav-bar {
 		display: none;
 	} */
+  .img-wrapper{
+    display: flex;
+     justify-content: center;
+     align-items: center;
+  }
   .feat-img {
-    display: relative;
-    margin-right: 30px;
-    margin-top: 400px;
-    width: 100px;
+     margin-top: 0px;
+     width: 100px;
+     /* display: flex;
+     float: center;
+     align-items: center;
+     justify-content: center; */
   }
   .main-desc {
     width: 100%;
+    text-align: center;
   }
   .glass-rect {
-    margin-top: 20vh;
+    
     padding: 25px;
   }
   .main {
