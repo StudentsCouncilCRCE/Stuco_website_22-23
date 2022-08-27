@@ -711,3 +711,5 @@ class CreateParticles {
 //  }
 //  window.addEventListener('load', navbarlinksActive)
 //  onscroll(document, navbarlinksActive)
+
+// Grievances Section
