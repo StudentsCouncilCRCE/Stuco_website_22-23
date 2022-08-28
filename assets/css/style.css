@@ -34,7 +34,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Nunito", sans-serif;
+  font-family: 'Lemonada', cursive;
 }
 
 hr {
@@ -58,7 +58,7 @@ section {
 }
 
 .section-header {
-  font-family: "Satisfy", cursive;
+  font-family: 'Lemonada', cursive;
   text-align: center;
   text-transform: uppercase;
 
@@ -78,6 +78,7 @@ section {
 }
 
 .section-header h2 {
+  font-family: 'Lemonada', cursive;
   letter-spacing: 1px;
   font-weight: 700;
   margin: 0;
@@ -1508,7 +1509,7 @@ body,
 }
 
 .bottom {
-  font: 700 4em/1 "cursive", sans-serif;
+  font: 700 4em/1 "Oswald ","cursive", sans-serif;
   font-size: 120px;
   letter-spacing: 0;
   padding: 0.25em 0 0.325em;
