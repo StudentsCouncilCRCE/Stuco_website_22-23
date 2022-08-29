@@ -35,6 +35,7 @@ h4,
 h5,
 h6 {
   font-family: 'Lemonada', cursive;
+  color: #f2f1c6;
 }
 
 hr {
@@ -58,6 +59,7 @@ section {
 }
 
 .section-header {
+  
   font-family: 'Lemonada', cursive;
   text-align: center;
   text-transform: uppercase;
@@ -86,12 +88,13 @@ section {
 }
 
 .section-header p {
+  
   margin: 50px 0;
   padding: 0;
   font-size: 38px;
   line-height: 42px;
   font-weight: 700;
-  color: rgb(255, 255, 255);
+   color: #f2f1c6;
 }
 
 @media (max-width: 768px) {
@@ -818,7 +821,7 @@ section {
   transition: 0.5s;
   transition-delay: calc(0.1s * var(--i));
 }
-.containert .card:hover .sci li i.bi-whatsapp {
+.containert .card:hover .sci li i.bi-telephone {
   color: rgb(91, 225, 91);
 }
 .containert .card:hover .sci li i.bi-linkedin {
@@ -827,7 +830,7 @@ section {
 .containert .card:hover .sci li i.bi-instagram {
   color: rgb(232, 103, 204);
 }
-.containert .card:hover .sci li i.bi-envelope-fill {
+.containert .card:hover .sci li i.bi-envelope {
   color: rgb(241, 241, 118);
 }
 
@@ -1238,6 +1241,7 @@ section {
   background: rgb(22, 22, 22);
 }
 .section-header .main-title {
+  color: #f2f1c6;
   margin-top: -5px;
   margin-bottom: -34px;
   padding-top: 16px;
@@ -1610,7 +1614,7 @@ body::-webkit-scrollbar-thumb {
   width: 100%;
   min-height: 100%;
   padding: 15px;
-
+  background: black;
   display: -webkit-box;
   display: -webkit-flex;
   display: -moz-box;
@@ -1623,7 +1627,7 @@ body::-webkit-scrollbar-thumb {
 
 .container-contact1 {
   width: 1163px;
-  background: #fff;
+  background: rgba(0, 0, 0, 0.075);
   border-radius: 10px;
   overflow: hidden;
 
@@ -1635,8 +1639,10 @@ body::-webkit-scrollbar-thumb {
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
-
   padding: 90px 130px 88px 148px;
+  box-shadow: 20px 20px 5px 5px;
+  color: #e35e2a;
+  border: 2px solid white;
 }
 
 /*------------------------------------------------------------------
@@ -1657,9 +1663,10 @@ body::-webkit-scrollbar-thumb {
 
 .contact1-form-title {
   display: block;
-  font-family: Montserrat-ExtraBold;
-  font-size: 24px;
-  color: #333333;
+  /* font-family: Montserrat-ExtraBold; */
+  font-family: "Lemonada",cursive;
+  font-size: 36px;
+  color: #f2f1c6;
   line-height: 1.2;
   text-align: center;
   padding-bottom: 44px;
@@ -1695,7 +1702,7 @@ textarea.input1 + .shadow-input1 {
   display: block;
   width: 100%;
   background: #e6e6e6;
-  font-family: Montserrat-Bold;
+  /* font-family: Montserrat-Bold; */
   font-size: 15px;
   line-height: 1.5;
   color: #666666;
@@ -1711,7 +1718,7 @@ textarea.input1 + .shadow-input1 {
   width: 100%;
   height: 100%;
   box-shadow: 0px 0px 0px 0px;
-  color: rgba(87, 184, 70, 0.5);
+  color: #e35e2a;
 }
 
 .input1:focus + .shadow-input1 {
@@ -1748,11 +1755,12 @@ textarea.input1 + .shadow-input1 {
   min-width: 193px;
   height: 50px;
   border-radius: 25px;
-  background: #57b846;
-  font-family: Montserrat-Bold;
+  background: #e35e2a;
+  /* font-family: Montserrat-Bold; */
+  font-family: "Lemonada",cursive;
   font-size: 15px;
   line-height: 1.5;
-  color: #fff;
+  color: rgb(0, 0, 0);
   display: -webkit-box;
   display: -webkit-flex;
   display: -moz-box;
@@ -1778,7 +1786,7 @@ textarea.input1 + .shadow-input1 {
 }
 
 .contact1-form-btn:hover {
-  background: #333333;
+  background: #ffffff;
 }
 
 .contact1-form-btn:hover i {
