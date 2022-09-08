@@ -236,7 +236,10 @@ section {
 .scrolled-offset {
   margin-top: 70px;
 }
-
+.stucu{
+  margin-left: -30px;
+  margin-right: 50px;
+}
 /*--------------------------------------------------------------
 # Navigation Menu
 --------------------------------------------------------------*/
@@ -471,6 +474,10 @@ section {
   .navb {
     padding-left: 0px;
   }
+  .stucu{
+    margin-left: 0px;
+    margin-right: 0px;
+  }
 }
 
 /*--------------------------------------------------------------
@@ -627,7 +634,7 @@ section {
 }
 
 .services .details {
-  padding: 50px 30px;
+  padding: 40px 30px;
   margin: -100px 30px 0 30px;
   transition: all ease-in-out 0.3s;
   background: white;
@@ -700,6 +707,23 @@ section {
 .services .service-item:hover .img img {
   transform: scale(1.2);
 }
+.pad{
+  margin-top: 20px;
+  border-radius: 20px;
+  color: coral;
+  
+}
+.pad:hover{
+  background-color: coral;
+}
+.size{
+  
+  height: 340px;
+  
+  
+ 
+}
+
 /*--------------------------------------------------------------
 # Clients
 --------------------------------------------------------------*/
@@ -1910,3 +1934,4 @@ textarea.input1 + .shadow-input1 {
     opacity: 1;
   }
 }
+
