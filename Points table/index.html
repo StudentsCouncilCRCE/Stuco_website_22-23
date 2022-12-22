@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Stuco | Points Table</title>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="shortcut icon" href="../assets/img/favicon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="points_table">
+        <a href="../index.html">
+            <img src="../assets/img/logo.jpg" alt="stuco_logo" width="150" height="150">
+        </a>
+        <h2 class="yellow">POINTS TABLE</h2>
+        <!-- <p class="search_text"><em>Search for your class.</em></p> -->
+        <form class="search-box">
+            <input type="text" placeholder="Search for your class" id="myinput" required />
+            <button type="reset"></button>
+        </form>
+        <!-- <input type="text" id="myinput" placeholder="Search..." title="Type in something"> -->
+        <div class="tabs-wrapper">
+            <input type="radio" name="tab" id="tab1" class="tab-head" checked="checked" />
+            <label for="tab1">CULTURAL</label>
+            <input type="radio" name="tab" id="tab2" class="tab-head" />
+            <label for="tab2">SPORTS</label>
+            <input type="radio" name="tab" id="tab3" class="tab-head" />
+            <label for="tab3">TECHNICAL</label>
+            <div class="tab-body-wrapper">
+                <div id="tab-body-1" class="tab-body">
+                    <table class="container">
+                        <thead>
+                            <tr>
+                                <th>
+                                    <h1><span id="no" class="w3-button table-column">POSITION</span></h1>
+                                </th>
+                                <th>
+                                    <h1><span id="class" class="w3-button table-column">CLASS</span></h1>
+                                </th>
+                                <th>
+                                    <!-- <h1><span id="points" class="w3-button table-column">POINTS<i class="caret"></i></span></h1> -->
+                                    <h1><span id="points" class="w3-button table-column">POINTS</span></h1>
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody id="mytable1">
+                        </tbody>
+                    </table>
+                </div>
+                <div id="tab-body-2" class="tab-body">
+                    <h1 style="color: white; font-size: 30px; font-family: Zen Dots, cursive;">BOYS</h1>
+                    <table class="container">
+                        <thead>
+                            <tr>
+                                <th>
+                                    <h1><span id="no" class="w3-button table-column">POSITION</span></h1>
+                                </th>
+                                <th>
+                                    <h1><span id="class" class="w3-button table-column">CLASS</span></h1>
+                                </th>
+                                <th>
+                                    <!-- <h1><span id="points" class="w3-button table-column">POINTS<i class="caret"></i></span></h1> -->
+                                    <h1><span id="points" class="w3-button table-column">POINTS</span></h1>
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody id="mytable2">
+                        </tbody>
+                    </table>
+
+                    <h1 style="color: white; font-size: 30px; font-family: Zen Dots, cursive;">GIRLS</h1>
+                    <table class="container">
+                        <thead>
+                            <tr>
+                                <th>
+                                    <h1><span id="no" class="w3-button table-column">POSITION</span></h1>
+                                </th>
+                                <th>
+                                    <h1><span id="class" class="w3-button table-column">CLASS</span></h1>
+                                </th>
+                                <th>
+                                    <!-- <h1><span id="points" class="w3-button table-column">POINTS<i class="caret"></i></span></h1> -->
+                                    <h1><span id="points" class="w3-button table-column">POINTS</span></h1>
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody id="mytable4">
+                        </tbody>
+                    </table>
+                </div>
+                <div id="tab-body-3" class="tab-body">
+                    <table class="container">
+                        <thead>
+                            <tr>
+                                <th>
+                                    <h1><span id="no" class="w3-button table-column">POSITION</span></h1>
+                                </th>
+                                <th>
+                                    <h1><span id="class" class="w3-button table-column">CLASS</span></h1>
+                                </th>
+                                <th>
+                                    <!-- <h1><span id="points" class="w3-button table-column">POINTS<i class="caret"></i></span></h1> -->
+                                    <h1><span id="points" class="w3-button table-column">POINTS</span></h1>
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody id="mytable3">
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- <div class="img-hover-zoom img-hover-zoom--colorize">
+        <img src="/WhatsApp Image 2022-12-06 at 9.27.18 PM.jpeg" height=400 width=400 alt="">
+    </div> -->
+
+    <script src="./index.js"></script>
+</body>
+
+</html>

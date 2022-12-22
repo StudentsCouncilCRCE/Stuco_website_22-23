@@ -34,7 +34,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Lemonada', cursive;
+  font-family: "Lemonada", cursive;
   color: #f2f1c6;
 }
 
@@ -59,8 +59,7 @@ section {
 }
 
 .section-header {
-  
-  font-family: 'Lemonada', cursive;
+  font-family: "Lemonada", cursive;
   text-align: center;
   text-transform: uppercase;
 
@@ -80,7 +79,7 @@ section {
 }
 
 .section-header h2 {
-  font-family: 'Lemonada', cursive;
+  font-family: "Lemonada", cursive;
   letter-spacing: 1px;
   font-weight: 700;
   margin: 0;
@@ -88,13 +87,12 @@ section {
 }
 
 .section-header p {
-  
   margin: 50px 0;
   padding: 0;
   font-size: 38px;
   line-height: 42px;
   font-weight: 700;
-   color: #f2f1c6;
+  color: #f2f1c6;
 }
 
 @media (max-width: 768px) {
@@ -236,7 +234,7 @@ section {
 .scrolled-offset {
   margin-top: 70px;
 }
-.stucu{
+.stucu {
   margin-left: -30px;
   margin-right: 50px;
 }
@@ -474,7 +472,7 @@ section {
   .navb {
     padding-left: 0px;
   }
-  .stucu{
+  .stucu {
     margin-left: 0px;
     margin-right: 0px;
   }
@@ -707,22 +705,18 @@ section {
 .services .service-item:hover .img img {
   transform: scale(1.2);
 }
-.pad{
+.pad {
   margin-top: 20px;
   border-radius: 20px;
   color: coral;
-  
 }
-.pad:hover{
+.pad:hover {
   background-color: coral;
 }
-.size{
-  
-  height: 340px; 
+.size {
+  height: 340px;
 }
 
-
- 
 /*--------------------------------------------------------------
 # Clients
 --------------------------------------------------------------*/
@@ -1317,25 +1311,24 @@ section {
   line-height: 25px;
   width: 50%;
 }
-.feat-img{
+.feat-img {
   float: right;
   margin-top: -350px;
 }
-
 
 @media (min-width: 320px) and (max-width: 700px) {
   /* .nav-bar {
 		display: none;
 	} */
-  .img-wrapper{
+  .img-wrapper {
     display: flex;
-     justify-content: center;
-     align-items: center;
+    justify-content: center;
+    align-items: center;
   }
   .feat-img {
-     margin-top: 0px;
-     width: 100px;
-     /* display: flex;
+    margin-top: 0px;
+    width: 100px;
+    /* display: flex;
      float: center;
      align-items: center;
      justify-content: center; */
@@ -1345,7 +1338,6 @@ section {
     text-align: center;
   }
   .glass-rect {
-    
     padding: 25px;
   }
   .main {
@@ -1536,7 +1528,7 @@ body,
 }
 
 .bottom {
-  font: 700 4em/1 "Oswald ","cursive", sans-serif;
+  font: 700 4em/1 "Oswald ", "cursive", sans-serif;
   font-size: 120px;
   letter-spacing: 0;
   padding: 0.25em 0 0.325em;
@@ -1687,7 +1679,7 @@ body::-webkit-scrollbar-thumb {
 .contact1-form-title {
   display: block;
   /* font-family: Montserrat-ExtraBold; */
-  font-family: "Lemonada",cursive;
+  font-family: "Lemonada", cursive;
   font-size: 36px;
   color: #f2f1c6;
   line-height: 1.2;
@@ -1780,7 +1772,7 @@ textarea.input1 + .shadow-input1 {
   border-radius: 25px;
   background: #e35e2a;
   /* font-family: Montserrat-Bold; */
-  font-family: "Lemonada",cursive;
+  font-family: "Lemonada", cursive;
   font-size: 15px;
   line-height: 1.5;
   color: rgb(0, 0, 0);
@@ -1934,3 +1926,38 @@ textarea.input1 + .shadow-input1 {
   }
 }
 
+.button-62 {
+  background: linear-gradient(to bottom right, #ef4765, #ff9a5a);
+  border: 0;
+  border-radius: 12px;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system, system-ui, "Segoe UI", Roboto, Helvetica, Arial,
+    sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 2.5;
+  outline: transparent;
+  padding: 0 1rem;
+  text-align: center;
+  text-decoration: none;
+  transition: box-shadow 0.2s ease-in-out;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  margin: 30px;
+}
+
+.button-62:not([disabled]):focus {
+  box-shadow: 0 0 0.25rem rgba(0, 0, 0, 0.5),
+    -0.125rem -0.125rem 1rem rgba(239, 71, 101, 0.5),
+    0.125rem 0.125rem 1rem rgba(255, 154, 90, 0.5);
+}
+
+.button-62:not([disabled]):hover {
+  box-shadow: 0 0 0.25rem rgba(0, 0, 0, 0.5),
+    -0.125rem -0.125rem 1rem rgba(239, 71, 101, 0.5),
+    0.125rem 0.125rem 1rem rgba(255, 154, 90, 0.5);
+}
