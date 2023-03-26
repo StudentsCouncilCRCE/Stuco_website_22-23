@@ -625,6 +625,7 @@ section {
 .services .img {
   border-radius: 8px;
   overflow: hidden;
+  
 }
 
 .services .img img {
@@ -1568,6 +1569,9 @@ body,
   .bottom {
     font-size: 40px;
   }
+  .services .img{
+    margin-left: 17px;
+  }
 }
 
 /* oculus  */
@@ -1948,6 +1952,7 @@ textarea.input1 + .shadow-input1 {
   touch-action: manipulation;
   white-space: nowrap;
   margin: 30px;
+  height: fit-content;
 }
 
 .button-62:not([disabled]):focus {
